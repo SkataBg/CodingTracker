@@ -15,5 +15,6 @@ internal enum MenuOption
     Insert,
     View_Sessions,
     Delete,
-    Update
+    Update,
+    Exit
 }

@@ -33,6 +33,9 @@ internal class MainMenu
                 case MenuOption.Update:
                     CRUD_Controller.Update();
                     break;
+                case MenuOption.Exit:
+                    Environment.Exit(1);
+                    break;
             }
         }
 
