@@ -1,4 +1,5 @@
 ﻿using CodingTracker;
 
+//TableCreator.DropTable("coding_sessions");
 TableCreator.CreateTable();
-CRUD_controller.Insert();
+MainMenu.StartMenu();
