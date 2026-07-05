@@ -8,5 +8,5 @@ internal class CodingSession
 
     public DateTime EndTime { get; set; }
 
-    public DateTime Duration { get; set; }
+    public String Duration { get; set; }
 }
